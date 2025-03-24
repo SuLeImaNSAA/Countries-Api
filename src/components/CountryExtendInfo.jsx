@@ -14,7 +14,7 @@ function CountryExtendInfo() {
   return (
     <section className=" mx-auto ">
       <Header />
-      <div className="container mx-auto h-[150vh]">
+      <div className="container mx-auto md:h-[100vh] h-[100%]">
         <Link to="/">
           <div
             className={`mt-[50px] w-[100px]  h-[40px] text-center flex justify-center rounded-md hover:shadow-2xl transform duration-200 text-gray-500${
@@ -92,40 +92,6 @@ function CountryExtendInfo() {
               : ""}
           </div>
         </div>
-        {/* <div>{selectedCountry.name}</div>
-        <div>{selectedCountry.population}</div>
-        <div>{selectedCountry.region}</div>
-        <div>{selectedCountry.capital}</div>
-        <div>{selectedCountry.nativeName}</div>
-        <div>{selectedCountry.subregion}</div>
-        <div>{selectedCountry.demonym}</div>
-        <div>
-          {selectedCountry.currencies.map((currency, index) => (
-            <div key={index}>
-              <p>Code: {currency.code}</p>
-              <p>Name: {currency.name}</p>
-              <p>Symbol: {currency.symbol}</p>
-            </div>
-          ))}
-        </div>
-        <div>
-          {selectedCountry.languages.map((lang, index) => (
-            <div key={index}>
-              <p> {lang.iso639_1}</p>
-              <p> {lang.name}</p>
-              <p> {lang.nativeName}</p>
-            </div>
-          ))}
-        </div>
-        <div>
-          {selectedCountry.borders
-            ? selectedCountry.borders.map((bord) => (
-                <div key={bord}>
-                  <p> {bord}</p>
-                </div>
-              ))
-            : ""}
-        </div> */}
       </div>
     </section>
   );

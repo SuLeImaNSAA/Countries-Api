@@ -7,7 +7,9 @@ import { useTheme } from "./contexts/ThemeContext";
 function App() {
   const { isDarkMode } = useTheme();
   return (
-    <div className={`${isDarkMode ? " bg-[#2c2c2c]" : " bg-[#e7e7e7] "}`}>
+    <div
+      className={` h-[100%] ${isDarkMode ? " bg-[#2c2c2c]" : " bg-[#e7e7e7] "}`}
+    >
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/info" element={<CountryExtendInfo />} />

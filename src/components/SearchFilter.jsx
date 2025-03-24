@@ -22,7 +22,7 @@ function SearchFilter() {
   return (
     <section>
       <div className="container mx-auto ">
-        <div className="mt-[30px]">
+        <div className="mt-[30px] ">
           <form
             onSubmit={!onSub}
             className=" md:flex-row flex justify-between items-center flex-col gap-3"

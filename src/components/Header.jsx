@@ -33,10 +33,6 @@ function Header() {
           onClick={toggleTheme}
         >
           {" "}
-          <img
-            src="/src/assets/110827_moon_icon.svg"
-            className="w-[35px] object-contain"
-          />{" "}
           {isDarkMode ? "Light" : "Dark"} Mode
         </button>
       </div>

@@ -9,7 +9,7 @@ function CountryItem({ name, population, region, capital, img }) {
   return (
     <section className="">
       <div
-        className={` mx-h-[400px]   rounded-lg   hover:shadow-2xl${
+        className={` md:h-[400px]   rounded-lg   hover:shadow-2xl${
           isDarkMode
             ? "bg-[#1e1e1e] text-white shadow-lg hover:shadow-2xl transition-all duration-500 "
             : "bg-[#abb4bc] text-black shadow-lg hover:shadow-2xl transition-all duration-500 "

@@ -31,7 +31,7 @@ function CountriesBoard() {
   return (
     <section>
       <div
-        className={` h-[100vh] container mx-auto grid md:grid-cols-4 gap-[80px] mt-[20px] grid-cols-1 `}
+        className={` h-[100%]  md:h-[100%] container mx-auto grid md:grid-cols-4 gap-[80px] mt-[20px] grid-cols-1 `}
       >
         {filteredCountries.map((country, index) => {
           return (
